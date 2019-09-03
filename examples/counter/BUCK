@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'counter',
+  srcs = glob([
+    '*.cpp',
+  ]),
+  deps = [
+    '//:rapidcheck',
+  ],
+)

@@ -5,3 +5,9 @@ GTAGS
 TAGS
 ext/gmock
 ext/boost
+
+.buckconfig.d
+.buckconfig.local
+.buckd
+buck-out
+buckaroo_macros.bzl
